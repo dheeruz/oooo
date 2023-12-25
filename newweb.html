@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB</title>
+        <link href="newwebsub.css" rel="stylesheet">
+        <link href="grid.css" rel="stylesheet">
+        <style>
+            body{
+              background-image: url(bangyu-wang-omoCm0bvNW4-unsplash\ \(2\).jpg);
+              background-size:cover;
+            }
+            .theform{
+              text-align:left;
+              font-size:20px;
+              background-color: transparent;
+              border-color:aliceblue;
+              margin-top:20px;
+              width:400px;
+              border-radius:30px;
+              color:rgb(22, 129, 156);
+              padding:13px;
+            }
+            ::placeholder{
+              color:rgb(201, 208, 213);
+            }
+            button{
+            color:white;
+             background-color:rgb(33, 194, 33);
+             width:130px;
+             height:40px;
+             border-radius:5px;
+             font-size:25px;
+        
+            }
+            button:hover{
+              background-color:red;
+              color:blueviolet;
+            }
+            button:active{
+              background-color:aqua;
+              color:burlywood;
+            }
+            img{
+              width:130px;
+              height:70px;
+            }
+          </style>
+        
+    </head>
+</html>
+<body>
+    <header class="oo" style="text-align: center; color: black; background-color: aqua;">PHONES</header>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="#">HOME</a></li>
+            <li class="active"><a href="#">NUMBER</a></li>
+            <li class="active"><a href="#">CONTACT</a></li>
+            <li class="active"><a href="#">SIGNIN</a></li>
+        </ul>
+        <fieldset style="margin-top:100px;margin-left:30%;margin-right:30%;height:400px;width:500px;border-radius:20px;text-align:center;">
+            <h1 style="text-align:center;color:whitesmoke;font-size:40px;">LOGIN</h1>
+            <br>
+            <input type="text" id="username" class="theform" required placeholder="Username or Email">
+            <br>
+            <input type="password" id="first" class="theform" required placeholder="Confirm Password">
+            <br>
+            <input type="password" id="second" style="margin-bottom:20px"; class="theform" required placeholder="Re-enter Password">
+            <br>
+            <a href="file:///C:/Users/HP/Desktop/ADPPROJECT/class.html"><button type="button" onclick="f()">Login</button></a>
+          </fieldset>
+            <script>
+              function f()
+              {
+                a=document.getElementById("first").value; 
+                b=document.getElementById("second").value;
+                if (a==b && a.trim()!="" && b.trim()!="")
+                  {
+                    window.alert("Login Successful");
+                    window.location.href="clgpro.html";
+                    return true;
+                  }
+                  else if (a.trim() === "" || b.trim() === "") {
+                    window.alert("Please enter both passwords");
+                    return false;
+                  }
+          
+                else{
+                  window.alert("Passwords must be same");
+                  return false;
+                }
+              }
+            </script>
+          
+        
+                <div class="parent">
+                    <div class="child"><p>PRESENT CEO</p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXvItykq-6vTBVGuZOZ4H3RBdPAu0jkX8Xkg&usqp=CAU" alt=""><p style="font-size: 16px;">Timothy Donald Cook (born November 1, 1960)[1] is an American business executive who has been the chief executive officer of Apple Inc. since 2011. Cook previously served as the company's chief operating officer under its co-founder Steve Jobs.[2] He is the first CEO of any Fortune 500 company who is openly gay.[3]Cook joined Apple in March 1998 as a senior vice president for worldwide operations, and then served as the executive vice president for worldwide sales and operations.[4] He was made the chief executive on August 24, 2011, prior to Jobs' death in October of that year.[5] During his tenure as the chief executive, he has advocated for the political reformation of international and domestic surveillance, cybersecurity, American manufacturing, and environmental preservation. Since 2011 when he took over Apple, to 2020, Cook doubled the company's revenue and profit, and the company's market value increased from $348 billion to $1.9 trillion.[6]</p></div>
+                    <div class="child"><p>A YEAR AGO CEO</p><img src="data:image/jpeg;base64,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"><p style="font-size: 13px;">Steven Paul Jobs (February 24, 1955 – October 5, 2011) was an American business magnate, inventor, and investor. He was the co-founder, chairman, and CEO of Apple; the chairman and majority shareholder of Pixar; a member of The Walt Disney Company's board of directors following its acquisition of Pixar; and the founder, chairman, and CEO of NeXT. He was a pioneer of the personal computer revolution of the 1970s and 1980s, along with his early business partner and fellow Apple co-founder Steve Wozniak.Jobs was born in San Francisco to a Syrian father and German-American mother. He was adopted shortly after his birth. Jobs attended Reed College in 1972 before withdrawing that same year. In 1974, he traveled through India seeking enlightenment before later studying Zen Buddhism. He and Wozniak co-founded Apple in 1976 to sell Wozniak's Apple I personal computer. Together the duo gained fame and wealth a year later with production and sale of the Apple II, one of the first highly successful mass-produced microcomputers. Jobs saw the commercial potential of the Xerox Alto in 1979, which was mouse-driven and had a graphical user interface (GUI). This led to the development of the unsuccessful Apple Lisa in 1983, followed by the breakthrough Macintosh in 1984, the first mass-produced computer with a GUI. The Macintosh introduced the desktop publishing industry in 1985 with the addition of the Apple LaserWriter, the first laser printer to feature vector graphics.</p></div>
+                    <div class="child"><p>IPhone</p><img style="height: 190px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/IPhone_14_Pro_vector_%28blue%29.svg/186px-IPhone_14_Pro_vector_%28blue%29.svg.png"><p style="font-size: 14px;">The iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system. The first-generation iPhone was announced by then-Apple CEO Steve Jobs on January 9, 2007. Since then, Apple has annually released new iPhone models and iOS updates. As of November 1, 2018, more than 2.2 billion iPhones had been sold. As of 2022, the iPhone accounts for 15.6% of global smartphone market share.[3]The iPhone was the first mobile phone to use multi-touch technology.[4] Since the iPhone's launch, it gained larger screen sizes, video-recording, waterproofing, and many accessibility features. Up to iPhone 8 and 8 Plus, iPhones had a single button on the front panel with the Touch ID fingerprint sensor. Since iPhone X, iPhone models have switched to a nearly bezel-less front screen design with Face ID facial recognition, and app switching activated by gestures. Touch ID is still used for the budget iPhone SE series.</p></div>
+                </div>
+        </form>
+    </div>
+    
+</body>
+</html>

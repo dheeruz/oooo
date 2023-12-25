@@ -1,0 +1,66 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image:url(bangyu-wang-omoCm0bvNW4-unsplash\ \(2\).jpg);
+    background-position:bottom;
+    box-sizing:border-box;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.menu-bar{
+    text-decoration: none;
+    text-align:center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style:none;
+    color:blue;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration:none;
+}
+.active{
+    background-color:white;
+    border-radius: 3px;
+}
+.active:hover{
+    background-color: black;
+}
+.sub-menu-1{
+    display:none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(red, green, blue);
+    margin-top:15px;
+}
+form{
+    margin-top: 15%;
+    cursor: pointer;
+}
+fieldset{
+    margin:330px;
+    margin-bottom: 330px;
+    border: 100px;
+}
+.oo{
+    font-size: 40px;
+    color: white;
+}
+.p{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 100px;
+}
+header:hover{
+    background-color: red;
+}

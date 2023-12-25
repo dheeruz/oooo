@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fun(){
+            document.getElementById("demo").innerHTML = "hello";
+        }
+        function windowalert(){
+            document.getElementById("demo").innerHTML = "login succesfuyll";
+        }
+        const number=[2,51,78,8995442221,4898949484,112,0];
+        let text="";
+        number.forEach(myfunction);
+        document.getElementById("rrrr").innerHTML=text;
+        function myfunction(value){
+            text += value + "<br>";
+        }
+
+    </script>
+    <style>
+        .menu{
+            text-decoration: none;
+            text-align: center;
+        }
+        .menu ul{
+            display: inline-flex;
+            list-style:none;
+            color: red;
+        }
+        .menu ul li{
+            padding: 10px;
+            width: 130px;
+            margin: 15px;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .menu ul li :hover{
+            background-color: aqua;
+            color:red;
+        }
+        .menu ul li a{
+            text-decoration: none;
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#">HOME</a></li>
+                <li><a href="#">SUPPORT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">HELP</a></li>
+        </ul>
+    </div>
+    <div>
+         <h1 style="text-decoration: dotted;" >Shopping Website</h1>
+    </div>
+    <p id="demo"></p>
+    <button type="button" onclick="fun()">submit</button>
+    <button type="button" onclick="window.alert()">fhhgfftf</button>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">date</button>
+    <p id="rrrr"></p>
+</body>
+</html>
